@@ -1,0 +1,161 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Card Design */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-alt {
+    background-color: #e9f6f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Profile Header */
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.centered-text {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* CTA Button */
+.cta-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #2d9b79;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #1a7a56;
+}
+
+/* Interests Section */
+.interests {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.interest {
+    flex: 1;
+    text-align: center;
+}
+
+.interest h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.interest p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Social Media Links */
+.social-links {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.social-links li {
+    margin: 10px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #2d9b79;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #777;
+    font-size: 14px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
